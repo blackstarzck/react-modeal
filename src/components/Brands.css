@@ -1,0 +1,29 @@
+.brands {
+}
+.item_wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item_wrapper li:first-child {
+    margin-bottom: 20px;
+}
+.item_wrapper li:last-child .link {
+    background-color: rgb(94, 94, 94);
+    color: #ffff;
+}
+.item_wrapper .link {
+    line-height: 1.2;
+    letter-spacing: -1.2px;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    z-index: 1;
+    color: #616161;
+    height: 60px;
+    font-size: 25px;
+    padding: 13px 25px;
+    border: 1px solid rgb(125, 125, 128);
+    border-radius: 6px;
+}

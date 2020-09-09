@@ -1,0 +1,39 @@
+.menu {height: 100px;}
+.menu::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu-item {
+    float: left;
+    text-align: center;
+    width: calc(100% / 6);
+    overflow: hidden;
+}
+.menu-item a {
+    display: block;
+}
+.menu-item .icon {
+    position: relative;
+    height: 65px;
+}
+
+.menu-item .icon img {
+    display: block;
+    position: absolute;
+    top: 10px; left: 0; right: 0;
+    margin: 0 auto;
+}
+.menu-item p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #b1b1b1;
+}
+
+/* clicked */
+.menu-item a.clicked img {
+    top: -90px !important;
+}
+.menu-item a.clicked p{
+    color: #3a307d;
+}

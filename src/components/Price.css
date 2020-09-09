@@ -1,0 +1,19 @@
+.price {
+    overflow: hidden;
+}
+.price .swiper-container {
+    width: 720px;
+    padding-bottom: 3px;
+}
+.price .swiper-slide {
+    width: 272.5px !important;
+    border-radius: 5px;
+    box-shadow: 0.602px 0.799px 7px 0px rgba(36, 36, 36, 0.2)
+}
+.price .swiper-slide a {
+    display: block;
+    background-color: rgb(246, 246, 246);
+}
+.price .swiper-slide a img {
+    width: 100%;
+}

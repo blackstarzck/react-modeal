@@ -1,0 +1,8 @@
+.sub_banner {
+    width: 100%;
+    padding-top: 45px;
+}
+.sub_banner .link {
+    display: block;
+    width: 100%;
+}

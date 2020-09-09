@@ -1,0 +1,61 @@
+.item.i1{
+    flex: 1;
+    text-align-last: left;
+    font-weight: 700;
+}
+.item.i1 h4 {
+    font-size: 25px;
+    color: #000;
+    padding: 8px 0;
+}
+.item.i1 p {
+    color: #9c9c9c;
+}
+.item.i2 {
+    text-align: right;
+}
+.item.i2 h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.item.i2 p {
+    font-size: 23px;
+    font-weight: 600;
+}
+.item.i2 .data {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 44px;
+    color: #3a307d;
+    margin-right: 10px;
+}
+.item.i2:last-child {
+    margin-left: 15px;
+}
+.item .icon {
+    width: 28px;
+    height: 23px;
+    background-color: red;
+}
+.deal_container {
+    position: relative;
+    z-index: 1;
+    background-color: rgb(233, 233, 233);
+    padding-bottom: 50px;
+}
+.deal_container .deal_info {
+    position: relative;
+    width: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 0 40px;
+    top: -45px;
+    left: 0; right: 0;
+    height: 157px;
+    margin: auto;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 10px;
+    box-shadow: 0px 8px 4.65px 0.35px rgba(79, 78, 83, 0.1);
+}
