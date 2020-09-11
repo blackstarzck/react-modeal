@@ -1,0 +1,8 @@
+header {
+    background-color: #3a307d;
+    text-align: center;
+    line-height: 75px;
+}
+header h1 a img.logo{
+    vertical-align: middle;
+}

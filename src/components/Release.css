@@ -1,0 +1,33 @@
+.title p {
+    font-size: 30px;
+    line-height: 34px;
+}
+.release .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.release .wrapper .item {
+    width: calc(100% / 2 - 24px);
+    margin-bottom: 0;
+}
+.release .wrapper .item:first-child {
+    margin-bottom: 35px;
+}
+.release .wrapper .item a span {
+    display: block;
+    text-align: left;
+    font-size: 23px;
+    letter-spacing: -1px;
+}
+.release .wrapper .item a span.title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.release .wrapper .item a span.sub_title {
+    font-weight: 300;
+}
+.release .wrapper .item a img {
+    width: 100%;
+    margin-bottom: 20px;
+}

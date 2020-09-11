@@ -16,18 +16,10 @@ function Price() {
                 />
             </a>
         </SwiperSlide>
-        // slides[slides.length - 1].push(
-        //     <SwiperSlide>
-        //         <a href="">
-        //             <img src="more2.png" alt="더보기"/>
-        //         </a>
-        //     </SwiperSlide>
-        // )  
-              
         )
     }
     slides.push(
-        <SwiperSlide>
+        <SwiperSlide key={8} tag='li'>
             <a href="">
                 <img src="more2.png" alt="더보기"/>
             </a>

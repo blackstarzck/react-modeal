@@ -21,7 +21,7 @@ export const MenuItems = [
     },
     {
         title: '고객센터',
-        path: '/service',
+        path: '/services',
         imgSrc: '/images/icon/footer_menu_05.png'
     },
     {

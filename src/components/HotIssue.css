@@ -1,14 +1,9 @@
-.top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 25px;
-}
 .top h3 {
     margin-bottom: 0;
 }
 .wrapper .item {
     margin-bottom: 35px;
+    text-align: center;
 }
 .wrapper .item:last-child {
     margin-bottom: 0;

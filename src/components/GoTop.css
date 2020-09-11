@@ -1,0 +1,19 @@
+.top_btn {
+    width:51px;
+    position: fixed; 
+    right: 23px; 
+    bottom: 23px; 
+    z-index:1000;
+    cursor: pointer;
+}
+.top_btn img{width:100%;}
+@media(min-width:1400px) {
+    .top_btn{
+        width:51px;
+        position: fixed; 
+        right: 27%; 
+        bottom: 23px; 
+        z-index:1000;
+    }
+    .top_btn img{width:100%;}
+}

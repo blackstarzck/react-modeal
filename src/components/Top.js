@@ -16,14 +16,6 @@ function Top() {
         <Router>
             <Header/>
             <Menu/>
-            {/* <Switch>
-                <Route path='/' component={Home}></Route>
-                <Route path='/' component={Promotion}></Route>
-                <Route path='/' component={Magazine}></Route>
-                <Route path='/' component={Quotation}></Route>
-                <Route path='/' component={Services}></Route>
-                <Route path='/' component={Profile}></Route>
-            </Switch> */}
         </Router>
     )
 }

@@ -1,0 +1,32 @@
+.slide_section {
+    overflow: hidden;
+}
+.slide_section .swiper-container {
+    width: 720px;
+    padding-bottom: 3px;
+}
+.slide_section .swiper-slide {
+    width: 272.5px !important;
+    border-radius: 5px;
+    box-shadow: 0.602px 0.799px 7px 0px rgba(36, 36, 36, 0.2)
+}
+.slide_section .swiper-slide a {
+    display: block;
+    background-color: rgb(246, 246, 246);
+}
+.slide_section .swiper-slide a img {
+    width: 100%;
+}
+.message {
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.message p {
+    line-height: 45px;
+}
+.message p b {
+    font-weight: bold;
+}
+.top .title h3 {
+    font-weight: normal;
+}
