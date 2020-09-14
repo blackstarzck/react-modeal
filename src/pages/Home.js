@@ -12,7 +12,7 @@ import BannerCont2 from '../components/BannerCont2';
 import SlideSection from '../components/SlideSection';
 import ContType1 from '../components/ContType1';
 import ContType2 from '../components/ContType2';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
 
 function Home() {
     return (
