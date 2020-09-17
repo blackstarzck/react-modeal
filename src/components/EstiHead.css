@@ -1,0 +1,30 @@
+.head {
+    font-family: 'Noto Sans KR', sans-serif;;
+    padding: 40px 40px 35px 40px;
+    background-color: #3c3082;
+}
+.head .mTitle {
+    color: #ffff;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -1px;
+}
+.head .subTitle {
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #ffff;
+    letter-spacing: -1px;
+}
+.head .btn {
+    margin-top: 20px;
+    display: inline-block;
+    height: 46px;
+    padding: 0 25px;
+    border: solid 2px rgba(255,255,255,0.5);
+    border-radius: 23px;
+    font-size: 20px;
+    line-height: 42px;
+    color: #ffff;
+}

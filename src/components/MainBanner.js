@@ -4,34 +4,40 @@ import SwiperCore, { Pagination, Autoplay } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import './MainBanner.css';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 SwiperCore.use([ Pagination, Autoplay ]);
 
 export class MainBanner extends Component {
     state = {
-        images : []
+        list : []
     };
     getImages = async () => {
-        const { list } = await axios.get('http://test.modeal.net/_interface/home/mainpromotion_list.php');
-        this.setState({images : list})
-        console.log(this.state.images);
+        const { data : { list } } = await axios.get('http://localhost:8080/_interface/home/mainpromotion_list.php');
+        this.setState({ list })
     }
     componentDidMount(){
         this.getImages();
     }
 
     render() {
-        const { images } = this.state;
-        console.log(images)
+        const url = 'http://test.modeal.net';
+        const { list } = this.state;
+        const storeImg = list.map((potato) => potato.P_IMG);
+        const storeUrl = list.map((potato) => potato.P_MAP);
+        console.log(storeUrl)
 
         const slides = [];
         for(let i = 0; i < 5; ++i){
+            console.log(url+storeImg[i])
             slides.push(
                 <SwiperSlide key={`banner-${i}`} tag='li'>
-                <img 
-                    src='/banner/banner.png'
-                    alt={`banner ${i}`}
-                />
+                    <Link to="/">
+                        <img 
+                            src={url + storeImg[i]}
+                            alt={`banner ${i}`}
+                        />
+                    </Link>
                 </SwiperSlide>
             )
         }

@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
         title: '홈',
-        path: '/home',
+        path: '/',
         imgSrc: '/images/icon/footer_menu_01.png'
     },
     {
@@ -16,7 +16,7 @@ export const MenuItems = [
     },
     {
         title: '즉시견적',
-        path: '/quotation',
+        path: '/estimate',
         imgSrc: '/images/icon/footer_menu_04.png'
     },
     {
