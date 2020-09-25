@@ -9,7 +9,7 @@ function Menu() {
             {MenuItems.map((item, index) => {
                 return(
                     <li className="menu-item" key={index}>
-                        <NavLink to={item.path} exact={true} activeClassName='clicked'>
+                        <NavLink to={item.path} activeClassName='clicked' end={true}>
                             <div className="icon">
                                 <img src={item.imgSrc} alt={item.title}/>
                             </div>

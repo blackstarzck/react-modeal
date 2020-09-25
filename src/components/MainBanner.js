@@ -5,7 +5,6 @@ import 'swiper/swiper-bundle.css';
 import './MainBanner.css';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-
 SwiperCore.use([ Pagination, Autoplay ]);
 
 export class MainBanner extends Component {
@@ -19,17 +18,14 @@ export class MainBanner extends Component {
     componentDidMount(){
         this.getImages();
     }
-
     render() {
         const url = 'http://test.modeal.net';
         const { list } = this.state;
         const storeImg = list.map((potato) => potato.P_IMG);
         const storeUrl = list.map((potato) => potato.P_MAP);
-        console.log(storeUrl)
 
         const slides = [];
         for(let i = 0; i < 5; ++i){
-            console.log(url+storeImg[i])
             slides.push(
                 <SwiperSlide key={`banner-${i}`} tag='li'>
                     <Link to="/">

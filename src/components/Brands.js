@@ -1,14 +1,11 @@
 import React from 'react';
 import './Brands.css';
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { BrandsItemData } from './BrandsItemData';
 
 function Brands() {
     return(
-        <Router>
-            <BrandsItems/>
-        </Router>
+        <BrandsItems/>
     )
 }
 
