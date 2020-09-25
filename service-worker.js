@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-modeal.net/precache-manifest.0cb4b462e975ed8617cf2035c67138c2.js"
+  "/react-modeal.net/precache-manifest.bbeb967b4de78749653ec3e8ab85c930.js"
 );
 
 self.addEventListener('message', (event) => {
